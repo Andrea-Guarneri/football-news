@@ -1,0 +1,312 @@
+:root {
+    --color-red: rgb(221, 58, 52);
+    --color-black: #111;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: url(./assets/images/football_pitch.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    background: linear-gradient(0deg, rgba(165, 180, 58) 0%, rgba(245, 245, 245) 100%);
+    justify-content: space-between;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 24px;
+}
+
+nav {
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+li a:hover {
+    color: var(--color-red);
+}
+
+
+.btn-posts a {
+    align-items: center;
+}
+
+/* SEARCH-BOX */
+
+#search-box {
+    background-color: whitesmoke;
+    border-radius: 40px;
+    border: #111 solid;
+    height: 40px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #111;
+    font-family: inherit;
+}
+
+#search-box span {
+    text-align: center;
+    margin-top: -8px;
+}
+
+
+
+#search-box img {
+    height: 24px;
+    padding: 3px;
+    margin-bottom: -5px;
+}
+
+
+header .logo {
+    display: flex;
+}
+
+
+header .logo img {
+    width: 200px;
+}
+
+
+header nav,
+ul {
+    display: flex;
+}
+
+
+main {
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background: rgb(223, 222, 226);
+    border-radius: 40px;
+    border: #111 solid;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+
+/* BANNERS */
+
+
+.post-banner {
+    width: 100%;
+    height: 700px;
+    background-image: url('./assets/images/napoli_banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.post-banner-central {
+    width: 100%;
+    height: 700px;
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/GettyImages-1650678973-e1693498552451.jpg?w=1220&h=674&crop=1');
+    background-size: cover;
+    background-position: center;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post-banner .btn-posts {
+    text-align: center;
+}
+
+
+/* POSTS SECTION */
+
+
+main section.posts-section {
+    display: flex;
+}
+
+h2,
+h3,
+p {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.posts-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: auto;
+    margin: 0 auto;
+    padding: auto;
+
+}
+
+.posts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: auto;
+
+}
+
+.post {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border: #111 solid;
+    width: 100%;
+    color: #111;
+
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+
+}
+
+
+main section.posts-section .posts p .btn-posts {
+    background-color: #cdc6c6;
+    padding: 40px;
+    border-radius: 10px;
+    color: #111;
+    text-align: justify;
+}
+
+/* BOTTON Read more */
+
+
+.btn-posts {
+    color: var(--color-red);
+    align-items: center;
+
+}
+
+
+.posts {
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+
+/* Match Results */
+
+.post {
+    margin-top: 20px;
+}
+
+.match-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.match-result .team {
+    display: flex;
+    align-items: center;
+}
+
+.match-result .team img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.match-result .team span {
+    font-weight: bold;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+
+footer {
+    background: linear-gradient(rgba(165, 180, 58), rgba(245, 245, 245));
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 24px;
+}
+
+.footer-logo img {
+    width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    scroll-behavior: smooth;
+    display: flex;
+    margin: 0 auto 10px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #111;
+    margin: 0 auto 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
