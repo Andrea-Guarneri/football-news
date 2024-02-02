@@ -80,7 +80,7 @@ li a:hover {
 #search-box {
     background-color: whitesmoke;
     border-radius: 40px;
-    border: #111 solid;
+    border: #ccc 1px solid;
     height: 40px;
     padding: 15px;
     display: flex;
