@@ -1,14 +1,16 @@
-:root {
-    --color-red: rgb(221, 58, 52);
-    --color-black: #111;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
+
+
+:root {
+    --color-red: rgb(221, 58, 52);
+    --color-black: #111;
+}
+
 
 html {
     font-size: 16px;
@@ -48,18 +50,19 @@ nav ul {
 }
 
 
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
 nav ul li {
     display: inline-block;
     margin: 0 10px;
     cursor: pointer;
     font-size: large;
-}
-
-
-a {
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
 }
 
 
@@ -126,7 +129,7 @@ main {
     margin-right: 24px;
     background: rgb(223, 222, 226);
     border-radius: 40px;
-    border: #111 solid;
+    border: #ccc 1px solid;
     margin-top: 24px;
     margin-bottom: 24px;
 
@@ -144,7 +147,17 @@ main {
     background-position: center;
     margin-bottom: 20px;
     margin-top: 20px;
-    border-radius: 7px;
+    border-radius: 10px;
+    color: #fff;
+    font-style: bold;
+    
+}
+
+.post-banner .content-post {
+    padding: 24px;
+    align-items: center;
+    margin-top: 200px;
+
 }
 
 .post-banner-central {
@@ -153,9 +166,13 @@ main {
     background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/08/GettyImages-1650678973-e1693498552451.jpg?w=1220&h=674&crop=1');
     background-size: cover;
     background-position: center;
-    border-radius: 7px;
+    border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+
 }
 
 .post-banner .btn-posts {
@@ -201,7 +218,7 @@ p {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    border: #111 solid;
+    border: #ccc 1px solid;
     width: 100%;
     color: #111;
 
@@ -217,7 +234,7 @@ p {
 main section.posts-section .posts p .btn-posts {
     background-color: #cdc6c6;
     padding: 40px;
-    border-radius: 10px;
+    border: 1px solid #ccc;
     color: #111;
     text-align: justify;
 }
