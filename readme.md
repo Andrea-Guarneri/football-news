@@ -33,6 +33,8 @@ Copy code
 
 git clone https://github.com/your-username/football-news.git
 
+You can access the page directly via this link: https://football-news-ag.netlify.app
+
 Open the index.html file in your preferred web browser.
 
 Explore the different sections of the website, including the latest news, team updates, league tables, and match results.
